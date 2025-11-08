@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mana Panta — About</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- NAVBAR (same links as index) -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Mana Panta <span class="brand-icon">🌾</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <header class="page-header bg-light py-5">
+    <div class="container">
+      <h1 class="fw-bold">About Mana Panta</h1>
+      <p class="lead text-muted">Who we are and why we exist</p>
+    </div>
+  </header>
+
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <h2 class="h4">Our Story</h2>
+          <p class="text-muted">Mana Panta began as a small farmer cooperative with the goal of reducing cost and increasing incomes. Over time, we formalized into a trust to reach more farmers and provide organized input support, training and market access.</p>
+
+          <h3 class="h6 mt-4">What we do</h3>
+          <ul class="text-muted">
+            <li>Distribute quality seeds and recommended fertilizers</li>
+            <li>Provide training on sustainable agriculture practices</li>
+            <li>Assist with micro-finance applications and bookkeeping</li>
+            <li>Link farmers with local and regional buyers</li>
+          </ul>
+        </div>
+
+        <div class="col-lg-6">
+          <h2 class="h4">Impact so far</h2>
+          <p class="text-muted">We have reached hundreds of small farms, helped improve yields by up to 20% in pilot groups, and successfully organized weekly buyer-seller meetups that reduce middlemen margins.</p>
+
+          <div class="card border-0 shadow-sm mt-3">
+            <div class="card-body">
+              <strong>Join us:</strong>
+              <p class="mb-0 text-muted">If you are a farmer or supporter, contact us via the Contact page to learn how to participate or volunteer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER (same as index) -->
+  <footer class="bg-dark text-white py-4 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Mana Panta</h5>
+          <p class="text-muted small">Community farming trust.</p>
+        </div>
+        <div class="col-md-3">
+          <h6>Quick Links</h6>
+          <ul class="list-unstyled small">
+            <li><a class="text-white-50" href="index.html">Home</a></li>
+            <li><a class="text-white-50" href="services.html">Services</a></li>
+            <li><a class="text-white-50" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 text-md-end">
+          <small class="text-white-50">© <span id="year2"></span> Mana Panta</small>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>document.getElementById('year2').textContent = new Date().getFullYear();</script>
+</body>
+</html>

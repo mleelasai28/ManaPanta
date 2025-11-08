@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mana Panta — Services</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- NAVBAR (same as About) -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Mana Panta <span class="brand-icon">🌾</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <header class="page-header bg-light py-5">
+    <div class="container">
+      <h1 class="fw-bold">Our Services</h1>
+      <p class="lead text-muted">Empowering farmers through modern agriculture solutions</p>
+    </div>
+  </header>
+
+  <!-- SERVICES SECTION -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <h2 class="h4">What We Offer</h2>
+          <p class="text-muted">
+            At Mana Panta, we deliver services that help farmers increase productivity and income sustainably. 
+            Our initiatives are designed to make agriculture profitable, practical, and environmentally responsible.
+          </p>
+          <ul class="text-muted">
+            <li>Distribution of certified, high-quality seeds</li>
+            <li>Supply of organic and inorganic fertilizers</li>
+            <li>Financial aid through government and NGO partnerships</li>
+            <li>Training sessions on sustainable agriculture</li>
+            <li>Soil and water testing facilities</li>
+            <li>Market linkage and buyer-seller networking</li>
+          </ul>
+        </div>
+
+        <div class="col-lg-6">
+          <h2 class="h4">How We Support Farmers</h2>
+          <p class="text-muted">
+            We combine traditional knowledge with modern methods to ensure farmers get the best results. 
+            Through collaboration and community-driven action, we bridge the gap between rural farmers and modern agricultural resources.
+          </p>
+
+          <div class="card border-0 shadow-sm mt-3">
+            <div class="card-body">
+              <strong>Need help?</strong>
+              <p class="mb-0 text-muted">
+                Reach out via our <a href="contact.html">Contact Page</a> to get personalized guidance or join our next training program.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ADDITIONAL SERVICES GRID -->
+      <div class="row g-4 mt-4">
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title fw-semibold">Seed Distribution</h5>
+              <p class="text-muted small">Certified, high-germination seeds for higher yields and local adaptability.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title fw-semibold">Fertilizer Supply</h5>
+              <p class="text-muted small">Affordable fertilizers and soil nutrient recommendations for maximum output.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title fw-semibold">Market Linkage</h5>
+              <p class="text-muted small">We help connect farmers with buyers directly, ensuring fair pricing and less dependency on middlemen.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white py-4 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Mana Panta</h5>
+          <p class="text-muted small">Community farming trust.</p>
+        </div>
+        <div class="col-md-3">
+          <h6>Quick Links</h6>
+          <ul class="list-unstyled small">
+            <li><a class="text-white-50" href="index.html">Home</a></li>
+            <li><a class="text-white-50" href="about.html">About</a></li>
+            <li><a class="text-white-50" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 text-md-end">
+          <small class="text-white-50">© <span id="year"></span> Mana Panta</small>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
