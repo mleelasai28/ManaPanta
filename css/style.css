@@ -66,11 +66,11 @@ body {
 }
 
 @keyframes slideShow {
-  0%   { background-image: url('./images/p4.jpg'); }
-  25%  { background-image: url('./images/Rice.jpg'); }
-  50%  { background-image: url('./images/p7.jpg'); }
-  75%  { background-image: url('./images/p10.jpg'); }
-  100% { background-image: url('./images/p1.jpg'); }
+  0%   { background-image: url('images/p4.jpg'); }
+  25%  { background-image: url('images/Rice.jpg'); }
+  50%  { background-image: url('images/p7.jpg'); }
+  75%  { background-image: url('images/p10.jpg'); }
+  100% { background-image: url('images/p1.jpg'); }
 }
 
 .hero-slideshow::before {
