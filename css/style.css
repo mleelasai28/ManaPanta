@@ -1,8 +1,3 @@
-/* ===========================================================
-   Mana Panta – Black / White / Green Theme
-   Refined from Dark Forest version
-   =========================================================== */
-
 /* ---------- Color Palette ---------- */
 :root {
   --forest-bg: #0d1b12;        /* Deep forest green background */
@@ -244,7 +239,3 @@ p, li {
     min-height: 60vh;
   }
 }
-
-/* ===========================================================
-   End of Mana Panta – Black / White / Green Theme
-   =========================================================== */
